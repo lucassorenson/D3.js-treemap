@@ -1,0 +1,33 @@
+.tile-text{
+    stroke: black;
+    fill: black;
+    font-size: 10px;
+    transform: translate(0, 3px);
+    pointer-events: none
+}
+
+#tooltip {
+    position: absolute;
+    width: 160px;
+    height: 100px;  
+    text-align: center;             
+    font: 15px;     
+    box-shadow: 3px 3px;   
+    border: 1px solid black;        
+    border-radius: 5px;   
+    padding: 5px;         
+    pointer-events: none;         
+  }
+
+  #title{
+        text-decoration: underline;
+        text-anchor: middle;
+        font-weight: bold;
+        font-size: 25px;
+    
+  }
+
+  #description {
+        text-anchor: middle;
+        font-size: 17px;
+  }
